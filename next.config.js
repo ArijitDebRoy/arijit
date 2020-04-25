@@ -20,6 +20,8 @@ module.exports = withPWA(withPurgeCss(
     pwa: {
         dest: 'public',
         disable: false,
+        register: true,
+        scope: '/',
     },
     crossOrigin: 'anonymous',
     webpack: (config, options) =>
@@ -29,5 +31,3 @@ module.exports = withPWA(withPurgeCss(
         return config;
     }
 });
-
-module.exports.useFileSystemPublicRoutes = false;

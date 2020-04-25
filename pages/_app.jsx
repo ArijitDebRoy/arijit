@@ -7,7 +7,7 @@ export default function MyApp({ Component, pageProps }) {
 }
 
 const propTypes = {
-    Component: PropTypes.object,
+    Component: PropTypes.func,
     pageProps: PropTypes.object,
 };
 
