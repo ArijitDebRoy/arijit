@@ -1,0 +1,76 @@
+import Document, { Head, Main, NextScript } from 'next/document'
+import React from "react";
+import env from '../env'
+
+const APP_NAME = "Arijit's Portfolio";
+const APP_DESCRIPTION = "I'm a full stack developer and machine learning enthusiast. Love anything about JS ❤️ || MERN stack || PHP || GraphQL || WebSocket";
+
+export default class extends Document {
+    static async getInitialProps(ctx) {
+        return await Document.getInitialProps(ctx)
+    }
+
+    render() {
+        return (
+            <html lang='en' dir='ltr'>
+                <Head nonce="BM4321">
+                    <meta charSet="utf-8"/>
+                    <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
+                    <meta httpEquiv="Pragma" content="no-cache"/>
+                    <meta httpEquiv="Expires" content="-1"/>
+                    <meta name='application-name' content={APP_NAME} />
+                    <meta name='apple-mobile-web-app-capable' content='yes' />
+                    <meta name='apple-mobile-web-app-status-bar-style' content='default' />
+                    <meta name='apple-mobile-web-app-title' content={APP_NAME} />
+                    <meta name='description' content={APP_DESCRIPTION} />
+                    <meta name='format-detection' content='telephone=no' />
+                    <meta name='mobile-web-app-capable' content='yes' />
+                    <meta name='theme-color' content='#FFFFFF' />
+                    <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover' />
+                    <meta property="og:description" content={APP_NAME}/>
+                    <meta name="msapplication-TileColor" content="#ffffff"/>
+                    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
+
+                    <link rel="preconnect" href={env.END_POINT}/>
+                    <link rel="preconnect" href={env.MAIL_URL}/>
+                    <link rel="preconnect" href={env.SOCKET_URI}/>
+                    <link rel="preconnect" href={env.FILE_URI}/>
+                    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+                    <link rel='manifest' href='/manifest.json' />
+
+                    <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon" />
+                    <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico" />
+
+                    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png"/>
+                    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png"/>
+                    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png"/>
+                    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png"/>
+                    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png"/>
+                    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png"/>
+                    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png"/>
+                    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png"/>
+                    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"/>
+
+                    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png"/>
+                    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png"/>
+                    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png"/>
+                    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png"/>
+
+                    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.0.1/css/unicons.css" />
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+                    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet" />
+
+                    <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"/>
+                    <script async type="text/javascript" defer src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.6.0/dist/chartjs-plugin-datalabels.min.js"/>
+                    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.js" />
+                    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" />
+                </Head>
+                <body>
+                    <Main />
+                    <NextScript nonce="BM4321"/>
+                </body>
+            </html>
+        )
+    }
+}
