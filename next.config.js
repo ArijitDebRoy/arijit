@@ -17,7 +17,10 @@ module.exports = withPWA(withPurgeCss(
     }
 ), {
     localIdentName: "[local]__[hash:base64:5]",
-    pwa: {},
+    pwa: {
+        dest: 'public',
+        disable: false,
+    },
     crossOrigin: 'anonymous',
     webpack: (config, options) =>
     {
