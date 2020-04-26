@@ -32,13 +32,16 @@ export default class extends Document {
                     <meta name='twitter:url' content={APP_URL} />
                     <meta name='twitter:title' content={APP_TITLE} />
                     <meta name='twitter:description' content={APP_DESCRIPTION} />
-                    <meta name='twitter:image' content='/images/favicon/android-icon-192x192.png' />
+                    <meta name='twitter:image' content='/images/full-logo-bg.png' />
                     <meta property='og:type' content='website' />
                     <meta property='og:title' content={APP_TITLE} />
                     <meta property='og:description' content={APP_DESCRIPTION} />
                     <meta property='og:site_name' content={APP_NAME} />
                     <meta property='og:url' content={APP_URL} />
-                    <meta property='og:image' content='/images/favicon/android-icon-192x192.png' />
+                    <meta property='og:image' content='/images/full-logo-bg.png' />
+                    <meta property="og:image:width" content="720" />
+                    <meta property="og:image:height" content="260" />
+                    <meta property="og:image:alt" content="Site Logo" />
                     <meta name="msapplication-TileColor" content="#1a202c"/>
                     <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png"/>
                     <meta name='msapplication-config' content='/browserconfig.xml' />
