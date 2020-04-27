@@ -67,6 +67,7 @@ export default class extends Document {
                     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png"/>
 
                     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164572158-1" />
+                    <script src="https://embed.small.chat/T012JG74KEHG012D7531AA.js" async></script>
                     <script src="/segment.js" />
                     <script src="/ga.js" />
                 </Head>
