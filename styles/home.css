@@ -15,7 +15,7 @@
     filter: hue-rotate(45deg);
     box-shadow: 15px 14px 0 gainsboro;
 }
-.skill-chip > span {
+.interest-chip > span {
     background-color: white;
     color: #1a202c;
     padding: 0.6rem;
@@ -24,10 +24,10 @@
     font-family: "Source Code Pro", 'Arial', 'sans-serif';
     font-weight: bolder;
 }
-.skill-chip {
+.interest-chip {
     margin: -0.5rem 0 0 -0.5rem;
 }
-.skill-chip > span:hover {
+.interest-chip > span:hover {
     background-color: #1a202c;
     color: white;
     border: 1px solid black;
@@ -100,4 +100,49 @@ pre {
 .suggestion-inner li:hover {
     transform: scale(1.5);
     padding-left: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .console {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .suggestion {
+        width: 100%;
+        padding: 0 0 2rem 0;
+    }
+    .suggestion-inner {
+        height: 100%;
+    }
+    .suggestion-inner ol {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .suggestion-inner li {
+        width: 50%
+    }
+    .intro {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .name-template {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .img-template {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .avatar {
+        margin: 0 auto;
+    }
+    .interest-chip > span {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .name-template > .text-6xl {
+        font-size: 2rem;
+    }
 }

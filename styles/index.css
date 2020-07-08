@@ -3,6 +3,7 @@
 @import url('navbar.css');
 @import url('home.css');
 @import url('skill.css');
+@import url('footer.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

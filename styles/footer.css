@@ -1,0 +1,15 @@
+.social a {
+    padding: 0 1rem
+}
+@media only screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer > * {
+        margin-bottom: 1rem;
+    }
+    .copyright {
+        font-size: 0.8rem;
+    }
+}
