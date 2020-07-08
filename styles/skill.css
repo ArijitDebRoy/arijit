@@ -1,0 +1,208 @@
+.skill-wrapper {
+    height: 100%;
+    margin: 1rem auto;
+    overflow: hidden;
+}
+.bubble{
+    box-shadow: inset 0 0 10px white;
+    border-radius: 50%;
+}
+.one{
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    margin: 2rem auto;
+    right: 8rem;
+    animation: float 7s ease-in-out infinite;
+}
+.two{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin: 5rem;
+    left: calc(50% + 1rem);
+    animation: float 6s ease-in-out infinite;
+}
+.three{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin: 20px auto;
+    animation: float 8s ease-in-out infinite;
+}
+.four{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 100px;
+    margin: 2rem auto;
+    animation: float-mix 5s ease-in-out infinite;
+}
+.five{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin: 7rem auto;
+    left: 20%;
+    animation: float 6s ease-in-out infinite;
+}
+.six{
+    height: 150px;
+    width: 150px;
+    top: 0;
+    left: 8rem;
+    margin: 2rem auto;
+    animation: float-mix 6s ease-in-out infinite;
+}
+.seven{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: float 6s ease-in-out infinite;
+}
+.eight{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 0;
+    right: calc(70% + 1rem);
+    margin: 0 auto;
+    animation: float-mix 6s ease-in-out infinite;
+}
+.nine{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    top: 0;
+    right: 0;
+    margin: 5rem auto;
+    animation: float-mix 6s ease-in-out infinite;
+}
+.ten{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 0;
+    left: 0;
+    margin: 4rem auto;
+    animation: float-mix 6s ease-in-out infinite;
+}
+.eleven{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: 0;
+    left: calc(30% + 1rem);
+    margin: 1rem auto;
+    animation: float 6s ease-in-out infinite;
+}
+.twelve{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 2rem;
+    left: calc(30% + 1rem);
+    margin: 5rem auto;
+    animation: float-mix 6s ease-in-out infinite;
+}
+.thirteen{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 38%;
+    margin: 7.5rem auto;
+    animation: float 6s ease-in-out infinite;
+}
+.fourteen{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 0;
+    right: calc(30% + 1rem);
+    margin: 1rem auto;
+    animation: float-mix 6s ease-in-out infinite;
+}
+.fifteen{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    top: 0;
+    right: calc(16% + 4rem);
+    margin: 5rem auto;
+    animation: float-mix 6s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translatey(0px);
+    }
+    10%{
+        transform: translateX(5px);
+    }
+    20%{
+        transform: translatey(8px);
+    }
+    30%{
+        transform: translateX(-8px);
+    }
+    40%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translatey(-5px);
+    }
+    60%{
+        transform: translateX(-20px);
+    }
+    70%{
+        transform: translatey(-10px);
+    }
+    80%{
+        transform: translatey(-15px);
+    }
+    90%{
+        transform: translatey(-20px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
+@keyframes float-mix{
+    0%{
+        transform: translateX(0px);
+    }
+    10%{
+        transform: translateY(5px);
+    }
+    20%{
+        transform: translateX(8px);
+    }
+    30%{
+        transform: translateY(-8px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateX(-5px);
+    }
+    60%{
+        transform: translateY(-20px);
+    }
+    70%{
+        transform: translateX(-10px);
+    }
+    80%{
+        transform: translateX(-15px);
+    }
+    90%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}

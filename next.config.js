@@ -5,7 +5,8 @@ const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 module.exports = withPWA({
     localIdentName: "[local]__[hash:base64:5]",
     pwa: {
-        dest: 'public'
+        dest: 'public',
+        disable: true
     },
     crossOrigin: 'anonymous',
     webpack: (config, options) =>

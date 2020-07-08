@@ -1,0 +1,103 @@
+/*intro*/
+.name-template {
+    width: 60%;
+    padding: 1rem 2rem;
+}
+.img-template {
+    width: 30%;
+    cursor: pointer;
+}
+.img-template > .avatar {
+    box-shadow: 15px 14px 0 white;
+    filter: grayscale(1);
+}
+.img-template > .avatar:hover {
+    filter: hue-rotate(45deg);
+    box-shadow: 15px 14px 0 gainsboro;
+}
+.skill-chip > span {
+    background-color: white;
+    color: #1a202c;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    margin: 0.5rem 0 0 0.5rem;
+    font-family: "Source Code Pro", 'Arial', 'sans-serif';
+    font-weight: bolder;
+}
+.skill-chip {
+    margin: -0.5rem 0 0 -0.5rem;
+}
+.skill-chip > span:hover {
+    background-color: #1a202c;
+    color: white;
+    border: 1px solid black;
+}
+
+/*console*/
+.console {
+    width: 70%;
+    padding: 3rem 7rem;
+}
+.suggestion {
+    width: 30%;
+    padding: 0 7rem 0 1rem;
+}
+.console-inner {
+    height: 25rem;
+    border: 1px solid black;
+    background-color: rgba(38, 38, 38, 0.7);
+    overflow-y: auto;
+}
+.suggestion-inner {
+    height: 25rem;
+}
+pre {
+    color: white;
+    white-space: inherit;
+}
+.console-input {
+    width: calc(100% - 14rem);
+    background-color: transparent;
+    color: white;
+}
+.console-input::placeholder,
+.console-input::-webkit-input-placeholder,
+.console-input::-moz-placeholder {
+    color: white;
+    font-family: "Source Code Pro", 'Arial', 'sans-serif';
+    font-weight: 900;
+}
+.console-input:focus{
+    outline: none !important;
+    border-color: transparent;
+    box-shadow: none;
+}
+.console-head {
+    background-color: black;
+    color: white;
+    top: 0;
+    left: 0;
+    padding: 0.2rem;
+    position: sticky;
+}
+.suggestion-inner ol {
+    counter-reset: listNumbering;
+}
+.suggestion-inner li {
+    counter-increment: listNumbering;
+    font-family: "Source Code Pro", 'Arial', 'sans-serif';
+    font-weight: 500;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.suggestion-inner li:before {
+    content: counter(listNumbering,decimal) ". ";
+    font-size: 2em;
+    color: white;
+}
+.suggestion-inner li:hover {
+    transform: scale(1.5);
+    padding-left: 3rem;
+}
