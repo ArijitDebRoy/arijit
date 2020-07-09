@@ -199,7 +199,7 @@ nav {
     width: 100%;
     padding: 1rem;
     z-index: 1;
-    overflow: hidden;
+    overflow: auto;
 }
 .sidebar-mobile {
     -webkit-transform: translate3d(-100%, 0px, 0px);

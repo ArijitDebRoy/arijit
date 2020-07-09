@@ -55,8 +55,11 @@ pre {
     color: white;
     white-space: inherit;
 }
+.cmd-line > pre {
+    white-space: nowrap;
+}
 .console-input {
-    width: calc(100% - 14rem);
+    /*width: calc(100% - 14rem);*/
     background-color: transparent;
     color: white;
 }
@@ -144,5 +147,9 @@ pre {
     }
     .name-template > .text-6xl {
         font-size: 2rem;
+    }
+    .suggestion-inner li:hover {
+        transform: none;
+        padding-left: 0;
     }
 }
