@@ -59,7 +59,6 @@ pre {
     white-space: nowrap;
 }
 .console-input {
-    /*width: calc(100% - 14rem);*/
     background-color: transparent;
     color: white;
 }

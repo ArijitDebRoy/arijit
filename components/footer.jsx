@@ -11,7 +11,7 @@ function Footer() {
 
     return(
         <section className="footer flex justify-around bg-gray-900 p-5">
-            <h4 className="inline-flex font-scp text-white">Made with &nbsp; <FaHeart color="red" fontSize="24px"/> &nbsp; by Arijit</h4>
+            <h4 className="inline-flex font-scp text-white">Made with &nbsp; <FaHeart className="heart-beat" color="red" fontSize="24px"/> &nbsp; by Arijit</h4>
             <div className="inline-flex social">
                 <a onClick={() => onOpen('github')} href="https://github.com/ArijitDebRoy" target="_blank" rel="noopener noreferrer" className="cursor-pointer"><FaGithub color="white" fontSize="24px"/></a>
                 <a onClick={() => onOpen('aric-editor')} href="https://www.npmjs.com/package/aric-editor" target="_blank" rel="noopener noreferrer" className="cursor-pointer"><FaNpm color="white" fontSize="24px"/></a>
