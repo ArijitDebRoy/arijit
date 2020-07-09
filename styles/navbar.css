@@ -104,7 +104,7 @@ nav {
         display: none;
     }
     .sidebar {
-        visibility: visible;
+        display: block !important;
     }
 }
 @media only screen and (min-width: 769px) {
@@ -116,7 +116,7 @@ nav {
         display: none;
     }
     .sidebar {
-        visibility: hidden;
+        display: none;
     }
 }
 .sidebar-trigger .times{
@@ -206,6 +206,7 @@ nav {
     padding: 1rem;
     z-index: 1;
     overflow: auto;
+    display: none;
 }
 .sidebar-mobile {
     -webkit-transform: translate3d(-100%, 0px, 0px);
