@@ -235,7 +235,7 @@ class Index extends Component {
                         <div className="console">
                             <div className="console-inner">
                                 <div className="console-head">
-                                    <span className="flex justify-start"><BsTerminal size={25}/>&nbsp;vercel@arijt-deb-roy:~$</span>
+                                    <span className="flex justify-start"><BsTerminal size={25}/>&nbsp;vercel@arijit-deb-roy:~$</span>
                                 </div>
                                 <div className="static-text">
                                     <pre className="mb-2">Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-1065-aws x86_64)</pre>
@@ -248,15 +248,15 @@ class Index extends Component {
 
                                     <pre>System load:  0.0               Processes:           136</pre>
                                     <pre>Usage of /:   8.3% of 96.88GB   Users logged in:     0</pre>
-                                    <pre>Memory usage: 34%               IP address for eth0: 172.31.8.38</pre>
+                                    <pre>Memory usage: 34%               IP address for eth0: 192.168.0.1</pre>
                                     <pre className="mb-2">Swap usage:   0%</pre>
 
-                                    <pre className="mb-5">Last login: Tue Jul  7 08:12:38 2020 from 103.77.47.196</pre>
+                                    <pre className="mb-5">Last login: {new Date().toString()} from 127.0.0.1</pre>
                                 </div>
                                 <div className="addon-text">
                                 </div>
                                 <div className="flex justify-start cmd-line">
-                                    <pre className="text-green-400">vercel@arijt-deb-roy:~$</pre>
+                                    <pre className="text-green-400">vercel@arijit-deb-roy:~$</pre>
                                     <input type="text" placeholder={this.state.cursor} value={this.state.cmd} className="console-input ml-1" onKeyUp={this.consoleCmd} onChange={this.consoleCmd}/>
                                 </div>
                             </div>

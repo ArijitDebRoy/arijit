@@ -4,10 +4,16 @@
 @import url('home.css');
 @import url('skill.css');
 @import url('footer.css');
+@import url('career.css');
+@import url('json-viewer.css');
+@import url('work-gallery.css');
+@import url('resources.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .site-container {
     padding: 6rem 1rem 0 1rem;
+    max-width: 1440px;
+    margin: 0 auto;
 }

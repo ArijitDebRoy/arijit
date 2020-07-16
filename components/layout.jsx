@@ -28,7 +28,7 @@ export default class Layout extends Component {
                 <Head>
                     <title>Arijit's Portfolio</title>
                 </Head>
-                <main className="overflow-auto">
+                <main className="overflow-auto bg-gray-800">
                     <Navbar/>
                     {this.props.children}
                     <Footer/>

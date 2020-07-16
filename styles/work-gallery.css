@@ -1,0 +1,96 @@
+.work-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+}
+.large-item,
+.intro-item {
+    position: relative;
+    grid-row: span 2;
+    grid-column: span 1;
+    max-height: calc(80vh - 8px);
+    overflow: hidden;
+}
+.small-item {
+    position: relative;
+    grid-row: span 1;
+    grid-column: span 1;
+    max-height: calc(40vh - 12px);
+    overflow: hidden;
+}
+.work-gallery .small-item:hover,
+.work-gallery .large-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.work-gallery .small-item:hover::after,
+.work-gallery .large-item:hover::after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    background-color: rgba(26, 32, 44, 0.9);
+    width: 100%;
+}
+.work-gallery .small-item:hover::after {
+    height: calc(40vh - 12px);
+}
+.work-gallery .large-item:hover::after {
+    height: calc(80vh - 8px);
+}
+.work-gallery .large-item .large-item-overlay,
+.work-gallery .small-item .small-item-overlay {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+    z-index: 1;
+    color: white;
+    padding: 0 0.5rem;
+}
+.work-gallery .small-item:hover .small-item-overlay {
+    visibility: visible;
+    height: calc(40vh - 12px);
+    transition: visibility 0.3s;
+}
+.work-gallery .large-item:hover .large-item-overlay {
+    visibility: visible;
+    height: calc(80vh - 8px);
+    transition: visibility 0.3s;
+}
+.quote::first-letter{
+    font-size: 200%;
+    font-weight: 500;
+}
+.quote::before{
+    position: absolute;
+    content: '“';
+    transform: scale(2);
+}
+.quote::after{
+    position: absolute;
+    content: '”';
+    transform: scale(2);
+}
+@media screen and (max-width: 768px) {
+    .work-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+    .work-gallery > * {
+        margin-bottom: 1rem;
+    }
+    .intro-item .text-6xl {
+        font-size: 2rem;
+    }
+    .intro-item {
+        font-size: 90%;
+        max-height: 100%;
+    }
+}

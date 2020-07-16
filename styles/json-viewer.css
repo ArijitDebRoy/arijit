@@ -1,0 +1,27 @@
+.json-viewer-container {
+    display: flex;
+    width: 100%;
+}
+.json-viewer-container > section {
+    width: 50%;
+    padding: 0.5rem;
+}
+.json-viewer-container .raw-json > textarea,
+.json-viewer-container .rjv-json > .json-output {
+    height: calc(100vh - 13.4rem);
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(39, 40, 34);
+    color: rgb(249, 248, 245);;
+}
+textarea {
+    padding: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+    .json-viewer-container {
+        flex-direction: column;
+    }
+    .json-viewer-container > section {
+        width: 100%;
+    }
+}

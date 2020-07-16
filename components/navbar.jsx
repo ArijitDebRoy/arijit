@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { FaTimes, FaStream } from "react-icons/fa";
 import $ from "jquery";
+import Link from 'next/link'
 
 function Navbar() {
 
@@ -25,30 +26,44 @@ function Navbar() {
     const sidebarToggle = () => {
         $("#sidebar-trigger").toggleClass("close open")
         $(".sidebar").toggleClass("close")
-    }
+    };
 
     return(
         <>
             <nav className="flex md:justify-around bg-gray-900" id="navbar">
                 <a className="nav-brand hide-on--mobile" href="#">
-                    <img src="/images/full-logo.png" className="brand-icon-full" id="brand-icon-full"/>
-                    <img src="/images/logo.png" className="brand-icon hidden" id="brand-icon"/>
+                    <Link href="/">
+                        <img src="/images/full-logo.png" className="brand-icon-full" id="brand-icon-full"/>
+                    </Link>
+                    <Link href="/">
+                        <img src="/images/logo.png" className="brand-icon hidden" id="brand-icon"/>
+                    </Link>
                 </a>
                 <a className="nav-brand hide-on--desktop" href="#">
-                    <img src="/images/logo.png" className="brand-icon-mobile"/>
+                    <Link href="/">
+                        <img src="/images/logo.png" className="brand-icon-mobile"/>
+                    </Link>
                 </a>
                 <ul className="nav-list hide-on--mobile">
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Career Map</a>
+                        <Link href="/career">
+                            <a className="nav-link" href="#">Career Map</a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Work Gallery</a>
+                        <Link href="/work-gallery">
+                            <a className="nav-link" href="#">Work Gallery</a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Resources</a>
+                        <Link href="/resources">
+                            <a className="nav-link" href="#">Resources</a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">JSON Viewer</a>
+                        <Link href="/json-viewer">
+                            <a className="nav-link" href="#">JSON Viewer</a>
+                        </Link>
                     </li>
                 </ul>
                 <div className="sidebar-trigger open p-4 hide-on--desktop" id="sidebar-trigger">
@@ -60,16 +75,24 @@ function Navbar() {
                 <div className="mt-3">
                     <ol type="1" className="flex-col">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Career Map</a>
+                            <Link href="/career">
+                                <a className="nav-link" href="#">Career Map</a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Work Gallery</a>
+                            <Link href="/work-gallery">
+                                <a className="nav-link" href="#">Work Gallery</a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Resources</a>
+                            <Link href="/resources">
+                                <a className="nav-link" href="#">Resources</a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">JSON Viewer</a>
+                            <Link href="/json-viewer">
+                                <a className="nav-link" href="#">JSON Viewer</a>
+                            </Link>
                         </li>
                     </ol>
                 </div>

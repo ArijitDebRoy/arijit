@@ -25,7 +25,8 @@
     "prop-types": "^15.7.2",
     "react": "16.13.0",
     "react-dom": "16.13.0",
-    "react-icons": "^3.9.0"
+    "react-icons": "^3.9.0",
+    "react-json-view": "^1.19.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.2",
