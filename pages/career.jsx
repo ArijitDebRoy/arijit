@@ -53,6 +53,19 @@ class Career extends Component {
                             </div>
                         </div>
                     </div>
+
+                    {/*quote*/}
+                    <div className="quote-wrapper">
+                        <h4 className="mb-5 font-scp quote text-white italic">
+                            &nbsp;Where the mind is without fear
+                            and the head is held high,
+                            where knowledge is free.
+                            Where the world has not been broken up into fragments by narrow domestic walls.&nbsp;
+                        </h4>
+                        <h4 className="flex justify-end mr-5 mb-5 font-scp text-white italic">
+                            - Rabindranath Tagore
+                        </h4>
+                    </div>
                 </div>
             </Layout>
         );

@@ -27,42 +27,84 @@ class WorkGallery extends Component {
                             </div>
                         </div>
                         <figure className="small-item">
-                            <img src="/images/b.png" alt="name" />
+                            <img src="/images/student.png" alt="name" />
                             <div className="small-item-overlay">
                                 <h2 className="font-aw text-xl">Project Name</h2>
                                 <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>
                             </div>
                         </figure>
                         <figure className="large-item">
-                            <img src="/images/b.png" alt="name" />
+                            <img src="/images/testprep.png" alt="name" />
                             <div className="large-item-overlay">
                                 <h2 className="font-aw text-xl">Project Name</h2>
                                 <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>
                             </div>
                         </figure>
                         <figure className="small-item">
-                            <img src="/images/b.png" alt="name" />
+                            <img src="/images/partner.png" alt="name" />
                             <div className="small-item-overlay">
                                 <h2 className="font-aw text-xl">Project Name</h2>
                                 <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>
                             </div>
                         </figure>
                         <figure className="small-item">
-                            <img src="/images/a.png" alt="name" />
+                            <img src="/images/collegify.png" alt="name" />
+                            <div className="small-item-overlay">
+                                <h2 className="font-aw text-xl">Project Name</h2>
+                                <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>
+                            </div>
+                        </figure>
+                        <figure className="large-item">
+                            <img src="/images/seergg.png" alt="name" />
+                            <div className="large-item-overlay">
+                                <h2 className="font-aw text-xl">Project Name</h2>
+                                <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>
+                            </div>
+                        </figure>
+                        <figure className="small-item">
+                            <img src="/images/admission.png" alt="name" />
                             <div className="small-item-overlay">
                                 <h2 className="font-aw text-xl">Project Name</h2>
                                 <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>
                             </div>
                         </figure>
                         <figure className="small-item">
-                            <img src="/images/a.png" alt="name" />
+                            <img src="/images/portfolio.png" alt="name" />
                             <div className="small-item-overlay">
                                 <h2 className="font-aw text-xl">Project Name</h2>
                                 <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>
                             </div>
                         </figure>
                         <figure className="small-item">
-                            <img src="/images/a.png" alt="name" />
+                            <img src="/images/tokenalerts.png" alt="name" />
+                            <div className="small-item-overlay">
+                                <h2 className="font-aw text-xl">Project Name</h2>
+                                <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>
+                            </div>
+                        </figure>
+                        <figure className="small-item">
+                            <img src="/images/blog.png" alt="name" />
+                            <div className="small-item-overlay">
+                                <h2 className="font-aw text-xl">Project Name</h2>
+                                <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>
+                            </div>
+                        </figure>
+                        <figure className="small-item">
+                            <img src="/images/admin.png" alt="name" />
+                            <div className="small-item-overlay">
+                                <h2 className="font-aw text-xl">Project Name</h2>
+                                <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>
+                            </div>
+                        </figure>
+                        <figure className="small-item">
+                            <img src="/images/ariceditor.png" alt="name" />
+                            <div className="small-item-overlay">
+                                <h2 className="font-aw text-xl">Project Name</h2>
+                                <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>
+                            </div>
+                        </figure>
+                        <figure className="small-item">
+                            <img src="/images/scrapping.png" alt="name" />
                             <div className="small-item-overlay">
                                 <h2 className="font-aw text-xl">Project Name</h2>
                                 <h4 className="font-scp text-sm">This kind of functionality basically seen in the news, product based websites or in blogs they show the post image and title but when the user moves</h4>

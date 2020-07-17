@@ -64,6 +64,10 @@
     height: calc(80vh - 8px);
     transition: visibility 0.3s;
 }
+.quote-wrapper {
+    width: 40%;
+    margin: 0 auto;
+}
 .quote::first-letter{
     font-size: 200%;
     font-weight: 500;
@@ -92,5 +96,11 @@
     .intro-item {
         font-size: 90%;
         max-height: 100%;
+    }
+    .work-gallery {
+        padding: 0;
+    }
+    .quote-wrapper {
+        width: 100%;
     }
 }

@@ -2,6 +2,7 @@
     padding: 3rem 0;
     position: relative;
     overflow: hidden;
+    margin-bottom: 1rem;
 }
 .career-container:before {
     content: '';

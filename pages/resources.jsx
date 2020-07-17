@@ -211,6 +211,16 @@ class Resources extends Component {
                         </div>
                     </div>
                 </section>
+
+                {/*quote*/}
+                <div className="quote-wrapper">
+                    <h4 className="mb-5 font-scp quote text-white italic">
+                        &nbsp;None can destroy iron, but its own rust can. Likewise, none can destroy a person but his own mindset can.&nbsp;
+                    </h4>
+                    <h4 className="flex justify-end mr-5 mb-5 font-scp text-white italic">
+                        - Ratan Tata
+                    </h4>
+                </div>
             </Layout>
         );
     }

@@ -275,6 +275,16 @@ class Index extends Component {
                             </div>
                         </div>
                     </div>
+
+                    {/*quote*/}
+                    <div className="quote-wrapper">
+                        <h4 className="mb-5 font-scp quote text-white italic">
+                            &nbsp;Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.&nbsp;
+                        </h4>
+                        <h4 className="flex justify-end mr-5 mb-5 font-scp text-white italic">
+                            - A. P. J. Abdul Kalam
+                        </h4>
+                    </div>
                 </div>
             </Layout>
         );

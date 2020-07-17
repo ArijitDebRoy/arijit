@@ -1,6 +1,7 @@
 .json-viewer-container {
     display: flex;
     width: 100%;
+    margin-bottom: 1rem;
 }
 .json-viewer-container > section {
     width: 50%;
