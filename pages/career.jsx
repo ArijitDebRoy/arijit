@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Layout from "../components/layout";
+import { FaGraduationCap, FaBuilding } from "react-icons/fa";
 
 class Career extends Component {
     render() {
@@ -9,47 +10,51 @@ class Career extends Component {
                     <h1 className="flex justify-center mb-5 font-aw font-bold text-6xl text-white">Career Map</h1>
                     <div className="career-container">
                         <div className="timeline-block timeline-block-right">
-                            <div className="marker font-aw"><span>2020</span></div>
+                            <div className="marker font-aw"><span><FaBuilding /></span></div>
                             <div className="timeline-content">
-                                <h2 className="font-aw font-bold text-xl md:text-2xl mb-2">First Year</h2>
-                                <h4 className="font-aw text-mb md:text-xl mb-3">Some work experience</h4>
-                                <p className="font-scp text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate.</p>
+                                <h2 className="font-aw font-bold text-2xl">Sr. Front End Developer</h2>
+                                <h4 className="font-aw">2020 - Present</h4>
+                                <p className="font-scp">
+                                    A dedicated test preparation panel is on the process and
+                                    numerous features added to collegify.com, eg. AI enabled essay, Readiness tool, Consultation booking system etc.
+                                </p>
                             </div>
                         </div>
                         <div className="timeline-block timeline-block-left">
-                            <div className="marker font-aw"><span>2020</span></div>
+                            <div className="marker font-aw"><span><FaBuilding /></span></div>
                             <div className="timeline-content">
-                                <h3>First Year</h3>
-                                <span>Some work experience</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate.</p>
+                                <h2 className="font-aw font-bold text-2xl">Front End Developer</h2>
+                                <h4 className="font-aw hide-on--mobile">2020 - 2019</h4>
+                                <h4 className="font-aw hide-on--desktop">2019 - 2020</h4>
+                                <p className="font-scp">
+                                    I started exploring GraphQL and made a GraphQL server for the APIs.
+                                    Meanwhile the course plan and insights system on the student side have started being developed.
+                                    The B2B partner system also started at this time
+                                </p>
                             </div>
                         </div>
                         <div className="timeline-block timeline-block-right">
-                            <div className="marker font-aw"><span>2020</span></div>
+                            <div className="marker font-aw"><span><FaBuilding /></span></div>
                             <div className="timeline-content">
-                                <h3>First Year</h3>
-                                <span>Some work experience</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate.</p>
+                                <h2 className="font-aw font-bold text-2xl">Jr. Web Developer</h2>
+                                <h4 className="font-aw">2018 - 2019</h4>
+                                <p className="font-scp">
+                                    I started my career with CLG. Collegify Pvt. Ltd. After six months of training my designation was Jr. Web Developer.
+                                    I have been working on development of a web based educational platform for K-12 market using Laravel and Vue.js
+                                </p>
                             </div>
                         </div>
                         <div className="timeline-block timeline-block-left">
-                            <div className="marker font-aw"><span>2020</span></div>
+                            <div className="marker font-aw"><span><FaGraduationCap /></span></div>
                             <div className="timeline-content">
-                                <h3>First Year</h3>
-                                <span>Some work experience</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate.</p>
+                                <h2 className="font-aw font-bold text-2xl">B.tech, Computer Science & Engineering</h2>
+                                <h4 className="font-aw hide-on--mobile">2018 - 2014</h4>
+                                <h4 className="font-aw hide-on--desktop">2014 - 2018</h4>
+                                <p className="font-scp">
+                                    I always wanted to be an Engineer and Computer Science is my all time favourite.
+                                    So, I had chosen CSE as my engineering domain. In those years I learned so many things and did lots of coding practice.
+                                    After doing some projects, internship and training in SWING and J2EE I successfully graduated from SDET Brainware Group of Institutions, affiliated to MAKAUT (formerly known as WBUT) and got my B.Tech degree
+                                </p>
                             </div>
                         </div>
                     </div>

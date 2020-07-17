@@ -59,8 +59,9 @@ class Index extends Component {
             $(".addon-text").append("<pre className='mb-5'>Arijit Deb Roy</pre>");
             $(".console-inner").scrollTop($(".console-inner")[0].scrollHeight);
             break;
-        case "getdate" :
+        case "getresume" :
             $(".addon-text").append("<pre className='mb-5'>" + moment().format("LLL") + "</pre>");
+            $(".addon-text").append("<pre className='mb-5'><a href='https://drive.google.com/file/d/197afduI0eBNTxZsYMU9ywyrXkMYf1yR6/view?usp=sharing' target='_blank' rel='noopener noreferrer'>https://drive.google.com/file/d/197afduI0eBNTxZsYMU9ywyrXkMYf1yR6/view?usp=sharing</a></pre>");
             $(".console-inner").scrollTop($(".console-inner")[0].scrollHeight);
             break;
         case "getaddr" :
@@ -80,6 +81,7 @@ class Index extends Component {
             $(".addon-text").append("<pre>AA 7/4/10 Deshbandhunagar, Baguiati</pre><pre>N. 24 Pngs, Kolkata-700059</pre><pre>West Bengal</pre><pre>India</pre>");
             $(".addon-text").append("<pre>arijitdebroy24@gmail.com</pre>");
             $(".addon-text").append("<pre className='mb-5'>+91 8961699379</pre><pre>+91 7980905598</pre>");
+            $(".addon-text").append("<pre className='mb-5'><a href='https://drive.google.com/file/d/197afduI0eBNTxZsYMU9ywyrXkMYf1yR6/view?usp=sharing' target='_blank' rel='noopener noreferrer'>https://drive.google.com/file/d/197afduI0eBNTxZsYMU9ywyrXkMYf1yR6/view?usp=sharing</a></pre>");
             $(".console-inner").scrollTop($(".console-inner")[0].scrollHeight);
             break;
         default:
@@ -266,7 +268,7 @@ class Index extends Component {
                                 <h2 className="font-aw text-2xl text-white mb-4">Available Commands</h2>
                                 <ol>
                                     <li onClick={this.setCmd.bind(this, "whoami")}>whoami</li>
-                                    <li onClick={this.setCmd.bind(this, "getdate")}>getdate</li>
+                                    <li onClick={this.setCmd.bind(this, "getresume")}>getresume</li>
                                     <li onClick={this.setCmd.bind(this, "getaddr")}>getaddr</li>
                                     <li onClick={this.setCmd.bind(this, "getmob")}>getmob</li>
                                     <li onClick={this.setCmd.bind(this, "getemail")}>getemail</li>
