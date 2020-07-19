@@ -104,7 +104,7 @@ class Index extends Component {
                                 Want to put to use my creative skills,
                                 technologies and innovative thoughts that
                                 will benefit the Organization in the long
-                                run and also help me in building my
+                                run and also help me to build up my
                                 professional career along with the growth
                                 of the organization.
                             </h4>
@@ -123,49 +123,49 @@ class Index extends Component {
                     {/*desktop - skills bubble*/}
                     <div className="skill-wrapper relative hide-on--mobile">
                         <div className="bubble one">
-                            <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="react.js"/>
+                            <img src="/images/react.webp" alt="react.js"/>
                         </div>
                         <div className="bubble two">
-                            <img src="https://cdn.freebiesupply.com/logos/large/2x/websocket-logo-png-transparent.png" alt="websocket" className="p-4 mt-1"/>
+                            <img src="/images/ws.png" alt="websocket" className="p-4 mt-1"/>
                         </div>
                         <div className="bubble three">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg" alt="socket.io" className="p-3"/>
+                            <img src="/images/socketio.svg" alt="socket.io" className="p-3"/>
                         </div>
                         <div className="bubble four">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="next.js" className="p-3 mt-2"/>
+                            <img src="/images/nextjs.svg" alt="next.js" className="p-3 mt-2"/>
                         </div>
                         <div className="bubble five">
-                            <img src="https://cdn.freebiesupply.com/logos/large/2x/graphql-logo-png-transparent.png" alt="graphql" className="p-4"/>
+                            <img src="/images/graphql.png" alt="graphql" className="p-4"/>
                         </div>
                         <div className="bubble six">
-                            <img src="https://png2.cleanpng.com/sh/27a4c27432e1adac5d2bbc87b5bfd3c6/L0KzQYm3VMI2N5d1j5H0aYP2gLBuTf5wbJYyguU2anH5ccTqkvlxfF58fdQ2YYDzfLrqggRqd58yfep5cnX2g37xk71kd551RadqZUDpSIXsVfU4PWQ8RqI9NkS8RIaBUcUzPGcAS6ICMEO7Roq1kP5o/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e5e7537.0464945815246930703869.png" alt="node.js" className="p-3"/>
+                            <img src="/images/nodejs.png" alt="node.js" className="p-3"/>
                         </div>
                         <div className="bubble seven">
-                            <img src="https://png2.cleanpng.com/sh/b56854052c5930a7169992d99d406952/L0KzQYm3V8IxN5xojJH0aYP2gLBuTfpifpJ4eARycISwfLFuj71pfJ5xRdV1aYCwccP7TfpifpJ4eARycISwfLFuj702amY2UKprMXG1cYLtWb4zPGM9TqsDOUG4Q4O3V8AxPmY7Tqg7LoDxd1==/kisspng-javascript-logo-html-clip-art-javascript-logo-5b5188b1a2a1f9.2428698915320700656662.png" alt="javascript" className="p-3"/>
+                            <img src="/images/js.png" alt="javascript" className="px-6 py-3"/>
                         </div>
                         <div className="bubble eight">
-                            <img src="https://png2.cleanpng.com/sh/634abbef690783cad95dd321ca672143/L0KzQYm3VMAzN6RvfZH0aYP2gLBuTf1wdph0fNQ2aX7mPbT2jgB2fJZ3ReV4ZoT6ccPsTfJ2e5pzfeV8LYPydsXAggJmNZUyetNELXzoccfsk702aZQ3UaMAZHTnRYi6Wb4xP2Q7SKsDNkG4QoOAUMA3O2gASKgBLoDxd1==/kisspng-mongodb-inc-computer-software-business-software-d-bay-leaves-5ac2915ddd5739.0736098615227006379066.png" alt="mongo" className="p-3"/>
+                            <img src="/images/mongo.png" alt="mongo" className="px-6 py-2"/>
                         </div>
                         <div className="bubble nine">
-                            <img src="https://png2.cleanpng.com/sh/f52a80eb9f06e0cff00d890abca50de0/L0KzQYm3V8E5N5pnR91yc4Pzfri0lwVmNZt4RdxqdnH2c8PwkQQudJpnitN7eT3kfrj8jPFzcqQyitdqY4SwhsbsTfp0NWZnTNdrZUHmQIq4Wck0NmkATaI7OEK8QYa6Ucg5P2I4SqI8N0OxgLBu/kisspng-vue-js-javascript-library-angularjs-react-vue-js-5b4ebe1c091993.8950282915318871320373.png" alt="vue.js" className="p-5 mt-3"/>
+                            <img src="/images/vuejs.png" alt="vue.js" className="p-5 mt-3"/>
                         </div>
                         <div className="bubble ten">
-                            <img src="https://png2.cleanpng.com/sh/3267a0c52b1aa07cd3ae4789cecc05aa/L0KzQYm3VME0N5h4iZH0aYP2gLBuTfdqfF5oh995dYTogn7wgB9ve154h9h9d3H1dX75hgBwe5p5hARELYPydsXAggJmNZVqReJ7aXPoPcXoh702aZU1TKQCM0K0QbO9U744PGE3S6QCOEG4QoS8Wcc6O2o2S6cBLoDxd1==/kisspng-git-computer-icons-software-repository-software-de-price-tag-5ad04273211b63.7402327815235979391356.png" alt="git" className="p-3"/>
+                            <img src="/images/git.png" alt="git" className="p-3"/>
                         </div>
                         <div className="bubble eleven">
-                            <img src="https://www.designbust.com/download/168/png/laravel_icon512.png" alt="laravel" className="p-3"/>
+                            <img src="/images/laravel.png" alt="laravel" className="p-3"/>
                         </div>
                         <div className="bubble twelve">
-                            <img src="https://png2.cleanpng.com/sh/eae15c68c9d1330eccce340a6d6cde77/L0KzQYm3VcEyN5xpfZH0aYP2gLBuTgJmbKZ9ReRuYXP3PbvolvF0a6NuiOY2doXoPbv6TgNqdphxfZ95YXfoPbL3kPxqa5J5RadqZkXmdLa7UsRmbWI6Rqo5NkG8R4q9UcUzPmE6UKYBOEG4QYS1kP5o/kisspng-redux-react-javascript-vue-js-single-page-applicat-5af5cde424ee15.8061979615260584681513.png" alt="redux" className="p-1"/>
+                            <img src="/images/redux.png" alt="redux" className="p-3"/>
                         </div>
                         <div className="bubble thirteen">
-                            <img src="https://png2.cleanpng.com/sh/4c7646d2dcb0e22dd47b68f05a8737ee/L0KzQYm3WcIxN5Z1eZH0aYP2gLBuTfpifpJ4eARycISweMX0jMUua5J4e9NtaX7qPcT7mfxmNaRtfdd9cz3mg8S6TcVjaWU1fao5N0TpQbS3TsU3OWo4TKI5MUW2R4WAWMI4OmU8UZD5bne=/kisspng-javascript-html5-cascading-style-sheets-css3-5ba40e8074f1c0.561934001537478272479.png" alt="react.js" className="p-3 mt-3"/>
+                            <img src="/images/stack.png" alt="stack" className="p-3 mt-6"/>
                         </div>
                         <div className="bubble fourteen">
-                            <img src="https://png2.cleanpng.com/sh/d04af09c2b28897d58b5263c82723f85/L0KzQYm3VcEzN6RufZH0aYP2gLBuTfJwd6V4jORqcD31dcT3jB50cadqReluYj3ndcTwhB4uf5ZnRdZudnXvf8H0hf51NZ10RadqZka6RrS3V8U2O2c2RqgEMUi4Q4SBUcUzPmI1SagENkS7QIe1kP5o/kisspng-bootstrap-responsive-web-design-web-development-lo-5af676c0755361.6918533815261016964806.png" alt="bootstrap"/>
+                            <img src="/images/bootstrap.png" alt="bootstrap" className="p-2"/>
                         </div>
                         <div className="bubble fifteen">
-                            <img src="https://png2.cleanpng.com/sh/061f159897ddc1ed5adb011e0f9c9ae4/L0KzQYm3VMEyN5d3iZH0aYP2gLBuTf16e6JxRdZqdHHlccTsTgdmal5pfehubHBzfbb1lL1kd551jeZucj32f7f7lBFzbV5ph955aHnxPYbogBUzQGFqe9Y7YUW5Poq7WMY4OWc8Sac7M0S5QIK4UMg1OGUziNDw/kisspng-mysql-database-web-development-computer-software-dolphin-5ace280ecd2a56.9486716715234601108404.png" alt="mysql" className="p-5"/>
+                            <img src="/images/mysql.png" alt="mysql" className="p-5"/>
                         </div>
                     </div>
 
@@ -174,59 +174,59 @@ class Index extends Component {
                         <h4 className="font-scp text-md text-white mb-2">Skills</h4>
                         <div className="flex flex-wrap skill-chip">
                             <span>
-                                <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="react.js"/>
+                                <img src="/images/react.webp" alt="react.js"/>
                                 React.js
                             </span>
                             <span>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="next.js"/>
+                                <img src="/images/nextjs.svg" alt="next.js"/>
                                 Next.js
                             </span>
                             <span>
-                                <img src="https://png2.cleanpng.com/sh/f52a80eb9f06e0cff00d890abca50de0/L0KzQYm3V8E5N5pnR91yc4Pzfri0lwVmNZt4RdxqdnH2c8PwkQQudJpnitN7eT3kfrj8jPFzcqQyitdqY4SwhsbsTfp0NWZnTNdrZUHmQIq4Wck0NmkATaI7OEK8QYa6Ucg5P2I4SqI8N0OxgLBu/kisspng-vue-js-javascript-library-angularjs-react-vue-js-5b4ebe1c091993.8950282915318871320373.png" alt="vue.js" />
+                                <img src="/images/vuejs.png" alt="vue.js" />
                                 Vue.js
                             </span>
                             <span>
-                                <img src="https://www.designbust.com/download/168/png/laravel_icon512.png" alt="laravel"/>
+                                <img src="/images/laravel.png" alt="laravel"/>
                                 Laravel
                             </span>
                             <span>
-                                <img src="https://png2.cleanpng.com/sh/061f159897ddc1ed5adb011e0f9c9ae4/L0KzQYm3VMEyN5d3iZH0aYP2gLBuTf16e6JxRdZqdHHlccTsTgdmal5pfehubHBzfbb1lL1kd551jeZucj32f7f7lBFzbV5ph955aHnxPYbogBUzQGFqe9Y7YUW5Poq7WMY4OWc8Sac7M0S5QIK4UMg1OGUziNDw/kisspng-mysql-database-web-development-computer-software-dolphin-5ace280ecd2a56.9486716715234601108404.png" alt="mysql" />
+                                <img src="/images/mysql.png" alt="mysql" />
                                 MySQL
                             </span>
                             <span>
-                                <img src="https://png2.cleanpng.com/sh/4c7646d2dcb0e22dd47b68f05a8737ee/L0KzQYm3WcIxN5Z1eZH0aYP2gLBuTfpifpJ4eARycISweMX0jMUua5J4e9NtaX7qPcT7mfxmNaRtfdd9cz3mg8S6TcVjaWU1fao5N0TpQbS3TsU3OWo4TKI5MUW2R4WAWMI4OmU8UZD5bne=/kisspng-javascript-html5-cascading-style-sheets-css3-5ba40e8074f1c0.561934001537478272479.png" alt="stack"/>
+                                <img src="/images/stack.png" alt="stack"/>
                                 JS/HTML/CSS
                             </span>
                             <span>
-                                <img src="https://png2.cleanpng.com/sh/d04af09c2b28897d58b5263c82723f85/L0KzQYm3VcEzN6RufZH0aYP2gLBuTfJwd6V4jORqcD31dcT3jB50cadqReluYj3ndcTwhB4uf5ZnRdZudnXvf8H0hf51NZ10RadqZka6RrS3V8U2O2c2RqgEMUi4Q4SBUcUzPmI1SagENkS7QIe1kP5o/kisspng-bootstrap-responsive-web-design-web-development-lo-5af676c0755361.6918533815261016964806.png" alt="bootstrap"/>
+                                <img src="/images/bootstrap.png" alt="bootstrap"/>
                                 Bootstrap
                             </span>
                             <span>
-                                <img src="https://png2.cleanpng.com/sh/eae15c68c9d1330eccce340a6d6cde77/L0KzQYm3VcEyN5xpfZH0aYP2gLBuTgJmbKZ9ReRuYXP3PbvolvF0a6NuiOY2doXoPbv6TgNqdphxfZ95YXfoPbL3kPxqa5J5RadqZkXmdLa7UsRmbWI6Rqo5NkG8R4q9UcUzPmE6UKYBOEG4QYS1kP5o/kisspng-redux-react-javascript-vue-js-single-page-applicat-5af5cde424ee15.8061979615260584681513.png" alt="redux"/>
+                                <img src="/images/redux.png" alt="redux"/>
                                 Redux
                             </span>
                             <span>
-                                <img src="https://png2.cleanpng.com/sh/3267a0c52b1aa07cd3ae4789cecc05aa/L0KzQYm3VME0N5h4iZH0aYP2gLBuTfdqfF5oh995dYTogn7wgB9ve154h9h9d3H1dX75hgBwe5p5hARELYPydsXAggJmNZVqReJ7aXPoPcXoh702aZU1TKQCM0K0QbO9U744PGE3S6QCOEG4QoS8Wcc6O2o2S6cBLoDxd1==/kisspng-git-computer-icons-software-repository-software-de-price-tag-5ad04273211b63.7402327815235979391356.png" alt="git" />
+                                <img src="/images/git.png" alt="git" />
                                 Git
                             </span>
                             <span>
-                                <img src="https://png2.cleanpng.com/sh/634abbef690783cad95dd321ca672143/L0KzQYm3VMAzN6RvfZH0aYP2gLBuTf1wdph0fNQ2aX7mPbT2jgB2fJZ3ReV4ZoT6ccPsTfJ2e5pzfeV8LYPydsXAggJmNZUyetNELXzoccfsk702aZQ3UaMAZHTnRYi6Wb4xP2Q7SKsDNkG4QoOAUMA3O2gASKgBLoDxd1==/kisspng-mongodb-inc-computer-software-business-software-d-bay-leaves-5ac2915ddd5739.0736098615227006379066.png" alt="mongo"/>
+                                <img src="/images/mongo.png" alt="mongo"/>
                                 Mongo
                             </span>
                             <span>
-                                <img src="https://png2.cleanpng.com/sh/27a4c27432e1adac5d2bbc87b5bfd3c6/L0KzQYm3VMI2N5d1j5H0aYP2gLBuTf5wbJYyguU2anH5ccTqkvlxfF58fdQ2YYDzfLrqggRqd58yfep5cnX2g37xk71kd551RadqZUDpSIXsVfU4PWQ8RqI9NkS8RIaBUcUzPGcAS6ICMEO7Roq1kP5o/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e5e7537.0464945815246930703869.png" alt="node.js"/>
+                                <img src="/images/nodejs.png" alt="node.js"/>
                                 Node.js
                             </span>
                             <span>
-                                <img src="https://cdn.freebiesupply.com/logos/large/2x/graphql-logo-png-transparent.png" alt="graphql"/>
+                                <img src="/images/graphql.png" alt="graphql"/>
                                 GraphQL
                             </span>
                             <span>
-                                <img src="https://cdn.freebiesupply.com/logos/large/2x/websocket-logo-png-transparent.png" alt="websocket"/>
+                                <img src="/images/ws.png" alt="websocket"/>
                                 WebSocket
                             </span>
                             <span>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg" alt="socket.io"/>
+                                <img src="/images/socketio.svg" alt="socket.io"/>
                                 Socket.io
                             </span>
                         </div>

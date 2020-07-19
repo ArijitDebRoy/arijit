@@ -210,10 +210,148 @@ class Resources extends Component {
                             </div>
                         </div>
                     </div>
+                    <div className="resource-item">
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="flex justify-around items-center h-20 p-3 mx-3">
+                                    <img className="resource-favicon mr-2" src="https://www.digitalocean.com/assets/community/android-icon-192x192-4d13e6664f412f6904a78be76d626004bcbbd59671f6c755919628134003c2a8.png" />
+                                    <h2 className="font-aw text-xl">digitalocean.com</h2>
+                                </div>
+                                <h1 className="font-aw text-xl bold px-3 mb-2">Create a Self-Signed SSL</h1>
+                                <h2 className="font-scp px-3">
+                                    How To Create a Self-Signed SSL Certificate for Apache in Ubuntu 18.04...
+                                </h2>
+                                <div className="flex items-center p-3">
+                                    <FaShare />
+                                    <a className="font-scp text-sm"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-18-04">
+                                        &nbsp;Visit source page
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="resource-item">
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="flex justify-around items-center h-20 p-3 mx-3">
+                                    <img className="resource-favicon mr-2" src="https://www.digitalocean.com/assets/community/android-icon-192x192-4d13e6664f412f6904a78be76d626004bcbbd59671f6c755919628134003c2a8.png" />
+                                    <h2 className="font-aw text-xl">digitalocean.com</h2>
+                                </div>
+                                <h1 className="font-aw text-xl bold px-3 mb-2">HTTP Server As Reverse-Proxy</h1>
+                                <h2 className="font-scp px-3">
+                                    How To Use Apache HTTP Server As Reverse-Proxy Using mod_proxy Extension...
+                                </h2>
+                                <div className="flex items-center p-3">
+                                    <FaShare />
+                                    <a className="font-scp text-sm"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension">
+                                        &nbsp;Visit source page
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="resource-item">
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="flex justify-around items-center h-20 p-3 mx-3">
+                                    <img className="resource-favicon mr-2" src="https://portswigger.net/content/images/logos/favicon.ico" />
+                                    <h2 className="font-aw text-xl">portswigger.net</h2>
+                                </div>
+                                <h1 className="font-aw text-xl bold px-3 mb-2">Cross-site scripting</h1>
+                                <h2 className="font-scp px-3">
+                                    What cross-site scripting is and how to prevent...
+                                </h2>
+                                <div className="flex items-center p-3">
+                                    <FaShare />
+                                    <a className="font-scp text-sm"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://portswigger.net/web-security/cross-site-scripting">
+                                        &nbsp;Visit source page
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="resource-item">
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="flex justify-around items-center h-20 p-3 mx-3">
+                                    <img className="resource-favicon mr-2" src="https://cdn-images-1.medium.com/fit/c/76/76/1*8I-HPL0bfoIzGied-dzOvA.png" />
+                                    <h2 className="font-aw text-xl">medium.com</h2>
+                                </div>
+                                <h1 className="font-aw text-xl bold px-3 mb-2">Modern UI & UX Design Tools</h1>
+                                <h2 className="font-scp px-3">
+                                    With a continuous growth of the demand for UI/UX designers and their...
+                                </h2>
+                                <div className="flex items-center p-3">
+                                    <FaShare />
+                                    <a className="font-scp text-sm"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://medium.com/@learnux.io/modern-ui-ux-design-tools-ca105e6f9785">
+                                        &nbsp;Visit source page
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="resource-item">
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="flex justify-around items-center h-20 p-3 mx-3">
+                                    <img className="resource-favicon mr-2" src="https://www.sohamkamani.com/icons/favicon.ico" />
+                                    <h2 className="font-aw text-xl">sohamkamani.com</h2>
+                                </div>
+                                <h1 className="font-aw text-xl bold px-3 mb-2">How to combine React Contexts</h1>
+                                <h2 className="font-scp px-3">
+                                    The React Context API is used for passing down data to all the child...
+                                </h2>
+                                <div className="flex items-center p-3">
+                                    <FaShare />
+                                    <a className="font-scp text-sm"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.sohamkamani.com/blog/react/2018-07-26-combining-react-context">
+                                        &nbsp;Visit source page
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="resource-item">
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="flex justify-around items-center h-20 p-3 mx-3">
+                                    <img className="resource-favicon mr-2" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" />
+                                    <h2 className="font-aw text-xl">stackoverflow.com</h2>
+                                </div>
+                                <h1 className="font-aw text-xl bold px-3 mb-2">setImmediate vs. nextTick</h1>
+                                <h2 className="font-scp px-3">
+                                    Use setImmediate if you want to queue the function behind whatever I/O event callbacks...
+                                </h2>
+                                <div className="flex items-center p-3">
+                                    <FaShare />
+                                    <a className="font-scp text-sm"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://stackoverflow.com/questions/15349733/setimmediate-vs-nexttick#:~:text=Use%20setImmediate%20if%20you%20want,already%20in%20the%20event%20queue.&text=nextTick%20to%20effectively%20queue%20the,after%20the%20current%20function%20completes.">
+                                        &nbsp;Visit source page
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 {/*quote*/}
-                <div className="quote-wrapper">
+                <div className="quote-wrapper px-4">
                     <h4 className="mb-5 font-scp quote text-white italic">
                         &nbsp;None can destroy iron, but its own rust can. Likewise, none can destroy a person but his own mindset can.&nbsp;
                     </h4>

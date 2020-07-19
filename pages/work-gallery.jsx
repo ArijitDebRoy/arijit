@@ -12,7 +12,7 @@ class WorkGallery extends Component {
                                 <h1 className="flex mb-5 font-aw font-bold text-6xl text-white">Work Gallery</h1>
                                 <h4 className="flex mb-12 font-aw text-white">
                                     This gallery contains all of my works.
-                                    I always try to keep this gallery updated. I'm mainly into web development. Most of the prject for the front-end
+                                    I always try to keep this gallery updated. I'm mainly into web development. Most of the project for the front-end
                                     I have used React or Vue and backed either Node.js using Express or Laravel. Though I have a little experience working with Restify.
                                     Some socket realted projects are also inside this bucket. Hope you like my works.
                                 </h4>
