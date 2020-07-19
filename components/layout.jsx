@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Head from 'next/head';
 import SlackWebHook from '../services/slack';
+import Navbar from './navbar';
+import Footer from './footer';
 import PropTypes from "prop-types";
 import LogRocket from 'logrocket';
 export const config = { amp: true };
@@ -26,8 +28,10 @@ export default class Layout extends Component {
                 <Head>
                     <title>Arijit's Portfolio</title>
                 </Head>
-                <main className="">
+                <main className="overflow-auto bg-gray-800">
+                    <Navbar/>
                     {this.props.children}
+                    <Footer/>
                 </main>
             </div>
         )

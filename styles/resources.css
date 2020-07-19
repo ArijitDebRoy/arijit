@@ -1,0 +1,112 @@
+.site-hero-container {
+    width: 100%;
+    padding: 5rem 0 0 0;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.4), #3B4F78),url("/images/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+.curve {
+    position: absolute;
+    bottom: -2px;
+}
+.hero {
+    padding: 2rem 1rem 0 1rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: white;
+}
+.heading {
+    margin-bottom: 6rem;
+}
+.heading h1 {
+    position: absolute;
+    animation: flash 10s linear infinite 0s;
+    opacity: 0;
+    overflow: hidden;
+}
+.heading h1:nth-child(2) {
+    animation-delay: 2.5s;
+}
+.heading h1:nth-child(3) {
+    animation-delay: 5s;
+}
+.heading h1:nth-child(4) {
+    animation-delay: 7.5s;
+}
+@keyframes flash {
+    0% { opacity: 0; }
+    5% { opacity: 0; }
+    10% { opacity: 1; }
+    25% { opacity: 1; }
+    30% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 0;}
+}
+.resource-grid {
+    max-width: 1440px;
+    margin: 0 auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.resource-item {
+    grid-column: span 2;
+    height: 15rem;
+}
+.card {
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin: 2px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: linear-gradient(to right, #283245 50%, #2d3748 50%);
+    z-index: 1;
+}
+.card::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background-color: #3B4F78;
+    z-index: 0;
+    transform: skew(2deg, 2deg);
+}
+.resource-favicon {
+    height: 70px;
+}
+@media screen and (max-width: 768px) {
+    .resource-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .resource-grid > * {
+        margin-bottom: 1rem;
+    }
+    .hero .heading .text-6xl {
+        font-size: 2rem;
+    }
+    .hero .heading {
+        margin-bottom: 4rem;
+    }
+    .card {
+        font-size: 90%;
+    }
+    .card-body .text-xl {
+        font-size: 1rem;
+    }
+    .resource-favicon {
+        height: 40px;
+    }
+}
