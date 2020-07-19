@@ -101,12 +101,10 @@ class Index extends Component {
                             <h1 className="font-aw text-6xl text-white mb-1">I'm Arijit Deb Roy</h1>
                             <h2 className="font-aw text-2xl text-white mb-2">Front End Developer</h2>
                             <h4 className="font-scp text-md text-white mb-5">
-                                Want to put to use my creative skills,
-                                technologies and innovative thoughts that
-                                will benefit the Organization in the long
-                                run and also help me to build up my
-                                professional career along with the growth
-                                of the organization.
+                                Though my current designation is front-end developer,
+                                I’m comfortable in both front-end and back-end.
+                                I want to use my creative skills, technologies and innovative thoughts to grow someone's
+                                business or transform someone's dream project into reality.
                             </h4>
                             <h4 className="font-scp text-md text-white mb-2">Interests</h4>
                             <div className="flex justify-start flex-wrap interest-chip">
