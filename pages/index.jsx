@@ -5,7 +5,7 @@ import moment from "moment";
 import $ from "jquery";
 import { BsTerminal } from "react-icons/bs";
 
-const CMD = ['whoami', 'getdate', 'getaddr', 'getemail', 'getmob', 'getlist'];
+const CMD = ['whoami', 'getresume', 'getaddr', 'getemail', 'getmob', 'getlist'];
 
 class Index extends Component {
 
