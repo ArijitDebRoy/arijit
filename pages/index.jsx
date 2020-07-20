@@ -109,7 +109,7 @@ class Index extends Component {
                             <h4 className="font-scp text-md text-white mb-2">Interests</h4>
                             <div className="flex justify-start flex-wrap interest-chip">
                                 <span>Coding nice web art</span>
-                                <span>Vertual bug hunting</span>
+                                <span>Virtual bug hunting</span>
                                 <span>Anything about JS</span>
                             </div>
                         </div>
