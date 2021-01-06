@@ -13,7 +13,7 @@
   "author": "Arijit Deb Roy",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "jquery": "^3.5.0",
     "lodash": "^4.17.19",
     "logrocket": "^1.0.7",
