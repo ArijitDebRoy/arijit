@@ -93,6 +93,30 @@ class WorkGallery extends Component {
                             </div>
                         </figure>
                         <figure className="small-item">
+                            <img src="/images/capl-student.png" alt="name" />
+                            <div className="small-item-overlay">
+                                <h2 className="font-aw text-xl">CAPL student and mentor</h2>
+                            </div>
+                        </figure>
+                        <figure className="large-item">
+                            <img src="/images/autoflipz.png" alt="name" />
+                            <div className="large-item-overlay">
+                                <h2 className="font-aw text-xl">AutoFlipz</h2>
+                            </div>
+                        </figure>
+                        <figure className="large-item">
+                            <img src="/images/capl-admin.png" alt="name" />
+                            <div className="large-item-overlay">
+                                <h2 className="font-aw text-xl">CAPL admin</h2>
+                            </div>
+                        </figure>
+                        <figure className="small-item">
+                            <img src="/images/pactnuel.png" alt="name" />
+                            <div className="small-item-overlay">
+                                <h2 className="font-aw text-xl">Pactnuel</h2>
+                            </div>
+                        </figure>
+                        <figure className="small-item">
                             <img src="/images/scrapping.png" alt="name" />
                             <div className="small-item-overlay">
                                 <h2 className="font-aw text-xl">Web Scrapping(Node.js/PHP)</h2>
